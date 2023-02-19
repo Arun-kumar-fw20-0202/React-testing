@@ -8,7 +8,6 @@ describe("Test input todo" , () => {
         const input = screen.getByTestId("todo-input");
         expect(input).toHaveFocus()
     })
-
     it("Default value should be *Katill_boyy*",()=> {
         render(<InputTodo />)
         const input = screen.getByTestId("todo-input")
